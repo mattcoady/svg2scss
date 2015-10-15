@@ -1,0 +1,4 @@
+*.scss
+*.svg
+node_modules/
+.idea/

@@ -1,0 +1,25 @@
+{
+  "name": "svg2scss",
+  "version": "0.0.5",
+  "description": "Node application to convert svg files into Sass variables.",
+  "main": "./bin/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": "true",
+  "keywords": [
+    "cli",
+    "svg",
+    "scss",
+    "convert"
+  ],
+  "dependencies": {
+    "glob": "5.0.14"
+  },
+  "bin": {
+    "svg2scss" : "./bin/script.js"
+  },
+  "author": "Matt Coady",
+  "license": "ISC",
+  "repository": "https://github.com/mattcoady/svg2scss"
+}
