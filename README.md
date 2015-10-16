@@ -1,3 +1,3 @@
-# SVG 2 Inline SCSS
+# SVG 2 SCSS
 
 Node application to convert svg files into Sass variables.

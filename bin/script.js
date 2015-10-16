@@ -50,7 +50,9 @@ glob ("*.svg", function(err, files) {
         remaining -= 1;
         if (remaining == 0) {
 
-          master += '//Found fill colors: \n';
+          master += '//Found fill colors. Do not reference these directly as the order is likely to change\n' +
+            '//every time you add or remove svg files. Use this as a reference to find and \n' +
+            '//replace the fills above with your own variables.';
 
           var itterCount = 0;
           for(key in fillList){
